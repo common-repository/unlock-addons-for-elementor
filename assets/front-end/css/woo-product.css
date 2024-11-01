@@ -1,0 +1,206 @@
+@import url(../global-css/global.css);
+
+/* Woo Product */
+.unlockafe-product-wrap .unlockafe-product-img-wrap {
+  height: 382px;
+  overflow: hidden;
+}
+
+.unlockafe-product-wrap .unlockafe-product-img-wrap .product-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 300ms linear 0ms;
+}
+
+.unlockafe-product-wrap .unlockafe-product-img-wrap .product-img.product-img-1 {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.unlockafe-product-wrap .unlockafe-product-img-wrap .product-img.product-img-2 {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
+}
+
+.unlockafe-product-wrap
+  .unlockafe-product-img-wrap
+  .unlockafe-product-img-hover {
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  text-align: center;
+  font-size: 15px;
+  white-space: nowrap;
+  background-color: #fff;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 94%;
+  width: 100%;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  opacity: 0;
+  visibility: hidden;
+  padding: 20px 0;
+  transition: all 300ms linear 0ms;
+}
+
+.unlockafe-product-wrap
+  .unlockafe-product-img-wrap
+  .unlockafe-product-img-hover:hover {
+  background-color: #222222;
+  color: #fff;
+}
+
+.unlockafe-product-wrap .unlockafe-product-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.unlockafe-product-wrap .unlockafe-product-info .unlockafe-product-meta {
+  color: #9b9b9b;
+  font-size: 14px;
+  line-height: 1.25;
+  position: relative;
+  display: inline-flex;
+  --cms-hover-underline-position-y: calc(100% - 1px);
+  --cms-hover-underline-height: 1px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, currentColor 0, currentColor 100%);
+  background-position: 0 var(--cms-hover-underline-position-y);
+  background-size: 0 var(--cms-hover-underline-height);
+  transition: background-size 0.5s cubic-bezier(0.25, 0.46, 0.35, 0.94),
+    color 0.2s ease-out, background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+}
+
+.unlockafe-product-wrap .unlockafe-product-info .unlockafe-product-meta:hover {
+  background-size: 100% var(--cms-hover-underline-height);
+}
+
+.unlockafe-product-wrap .unlockafe-product-info .unlockafe-product-title {
+  margin: 10px 0 15px;
+}
+
+.unlockafe-product-wrap .unlockafe-product-info .unlockafe-product-price {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.unlockafe-product-wrap .unlockafe-product-info .unlockafe-product-price del {
+  opacity: 0.4;
+}
+
+.unlockafe-product-wrap .unlockafe-product-info .unlockafe-product-price .new {
+  color: #ff0000;
+}
+
+.unlockafe-product-wrap:hover
+  .unlockafe-product-img-wrap
+  .product-img.product-img-1 {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
+}
+
+.unlockafe-product-wrap:hover
+  .unlockafe-product-img-wrap
+  .product-img.product-img-2 {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.unlockafe-product-wrap:hover
+  .unlockafe-product-img-wrap
+  .unlockafe-product-img-hover {
+  transform: translate(-50%, 0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.unlockafe-product-wrap.unlockafe-product-wrap-slide
+  .unlockafe-product-img-wrap
+  .unlockafe-product-sale-hover {
+  position: absolute;
+  right: auto;
+  left: 20px;
+  top: 20px;
+  z-index: 12;
+  background: #ba933e;
+  line-height: 1;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 700;
+  min-height: unset;
+  line-height: unset;
+  padding: 3px 10px;
+  line-height: 20px;
+  pointer-events: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.unlockafe-product-wrap.unlockafe-product-wrap-slide .unlockafe-product-info {
+  text-align: left;
+}
+
+.unlockafe-product-wrap.unlockafe-product-wrap-slide
+  .unlockafe-product-info
+  .unlockafe-product-price {
+  justify-content: start;
+  gap: 10px;
+}
+
+.unlockafe-product-wrap.unlockafe-product-design-two .unlockafe-product-info {
+  text-align: left;
+}
+
+.unlockafe-product-wrap.unlockafe-product-design-two
+  .unlockafe-product-info
+  .rating {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.unlockafe-product-wrap.unlockafe-product-design-two
+  .unlockafe-product-info
+  .unlockafe-product-price {
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.unlockafe-pagination {
+  margin-top: 60px;
+}
+
+.unlockafe-pagination .swiper-pagination-bullet {
+  margin: 0 !important;
+  height: 1.5px;
+  width: 100%;
+  max-width: 100%;
+  opacity: 1;
+  background: #ceced3;
+  border-radius: unset;
+}
+
+.unlockafe-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #000;
+  height: 1.5px;
+}
+
+/* Woo Product End */

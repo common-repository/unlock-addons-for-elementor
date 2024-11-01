@@ -1,0 +1,81 @@
+/* Pie Chart */
+.unlockafe-pie-chart-wrap {
+  padding: 25px;
+  background-color: #061121;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.unlockafe-pie-chart-wrap .unlockafe-pie-chart {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.unlockafe-pie-chart-wrap .unlockafe-pie-chart .unlockafe-pie-chart-media {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.unlockafe-pie-chart-wrap
+  .unlockafe-pie-chart
+  .unlockafe-pie-chart-media
+  .unlockafe-pie-chart-svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.unlockafe-pie-chart-wrap
+  .unlockafe-pie-chart
+  .unlockafe-pie-chart-media
+  .unlockafe-pie-chart-svg
+  circle {
+  fill: none;
+  stroke-width: 2;
+}
+
+.unlockafe-pie-chart-wrap
+  .unlockafe-pie-chart
+  .unlockafe-pie-chart-media
+  .unlockafe-pie-chart-svg
+  .background {
+  stroke: #eee;
+}
+
+.unlockafe-pie-chart-wrap
+  .unlockafe-pie-chart
+  .unlockafe-pie-chart-media
+  .unlockafe-pie-chart-svg
+  .foreground {
+  stroke: #3498db;
+  stroke-dasharray: 88;
+  stroke-dashoffset: 88;
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+.unlockafe-pie-chart-wrap
+  .unlockafe-pie-chart
+  .unlockafe-pie-chart-media
+  .unlockafe-pie-chart-count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.unlockafe-pie-chart-wrap .unlockafe-pie-chart-title,
+.unlockafe-pie-chart-wrap p {
+  color: #fff;
+}
+
+.unlockafe-pie-chart-wrap .unlockafe-pie-chart-title {
+  margin: 25px 0 15px;
+}
+
+/* Pie Chart End */

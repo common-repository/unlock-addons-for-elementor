@@ -1,0 +1,184 @@
+@import url(../global-css/global.css);
+
+/* Team */
+.unlockafe-team-wrap {
+  margin-bottom: 24px;
+}
+
+.unlockafe-team-wrap .team-img img {
+  transition: all 0.3s;
+}
+
+.unlockafe-team-wrap .team-img .team-hover {
+  background: rgba(7, 19, 17, 0.9);
+  height: 0;
+  width: 90%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.unlockafe-team-wrap .team-img .team-hover ul {
+  border: 1.2px solid;
+  border-image-source: linear-gradient(
+    117.77deg,
+    #fbae3d 0%,
+    rgba(251, 174, 61, 0) 36.23%,
+    rgba(251, 174, 61, 0) 65.79%,
+    #fbae3d 100%
+  );
+  border-image-slice: 1;
+  background-color: #191a20;
+  padding: 9px 24px;
+  transition: all 0.5s;
+  visibility: hidden;
+}
+
+.unlockafe-team-wrap .team-img .team-hover ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.unlockafe-team-wrap .team-img .team-hover ul li:last-child {
+  margin-right: 0;
+}
+
+.unlockafe-team-wrap .team-img .team-hover ul li i,
+.unlockafe-team-wrap .team-img .team-hover ul li svg {
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.unlockafe-team-wrap .team-img .team-hover ul li i:hover,
+.unlockafe-team-wrap .team-img .team-hover ul li svg:hover {
+  color: rebeccapurple;
+}
+
+.unlockafe-team-wrap .team-content {
+  margin-top: 20px;
+}
+
+.unlockafe-team-wrap .team-content p {
+  font-size: 15px;
+}
+
+.unlockafe-team-wrap .team-content h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 10px;
+  transition: all 0.4s;
+}
+
+.unlockafe-team-wrap:hover .team-img .team-hover {
+  background: rgba(7, 19, 17, 0.9);
+  height: 90%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.unlockafe-team-wrap:hover .team-img .team-hover ul {
+  visibility: visible;
+}
+
+/* Design 1 end */
+.unlockafe-team-slide-box {
+  text-align: center;
+}
+
+.unlockafe-team-slide-box .team-slide-img {
+  height: 400px;
+}
+
+.unlockafe-team-slide-box .team-slide-img .team-slide-hover {
+  overflow: hidden;
+  border-radius: 3px;
+  bottom: 30px;
+  background-color: #fff;
+  left: 50%;
+  transform: translate(-50%, 10px) scale(0.85);
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.unlockafe-team-slide-box .team-slide-img .team-slide-hover li {
+  position: relative;
+}
+
+.unlockafe-team-slide-box
+  .team-slide-img
+  .team-slide-hover
+  li:not(:last-child)::before {
+  background-color: #e1e1e1;
+  height: 100%;
+  width: 1px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.unlockafe-team-slide-box .team-slide-img .team-slide-hover li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: all 0.4s;
+  color: #010101;
+}
+
+.unlockafe-team-slide-box .team-slide-img .team-slide-hover li a:hover {
+  color: #5a5a5a;
+}
+
+.unlockafe-team-slide-box .team-slide-info .team-name {
+  margin: 20px 0 10px;
+}
+
+.unlockafe-team-slide-box:hover .team-slide-img .team-slide-hover {
+  transform: translate(-50%, 0) scale(1);
+  opacity: 1;
+}
+
+.unlockafe-team-button-wrap-arrow {
+  width: 100%;
+  top: 45%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.unlockafe-team-button-wrap-arrow .slide-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.03), 0px 3px 5px 0px rgba(0, 0, 0, 0.03);
+}
+
+.unlockafe-team-button-wrap-arrow .slide-btn svg {
+  height: 26px;
+  width: 26px;
+}
+
+.unlockafe-team-button-wrap-arrow .slide-btn.slide-btn-prev {
+  margin-left: -20px;
+}
+
+.unlockafe-team-button-wrap-arrow .slide-btn.slide-btn-next {
+  margin-right: -20px;
+}
+
+/* Team End */

@@ -1,0 +1,573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-08-25 12:26+0600\n"
+"PO-Revision-Date: 2024-08-25 12:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: unlock-addons-for-elementor.php:142
+msgid ""
+"Elementor is missing. You need to activate your installed Elementor to use "
+"Unlockafe Addons for Elementor."
+msgstr ""
+
+#: unlock-addons-for-elementor.php:143
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: unlock-addons-for-elementor.php:149
+msgid ""
+"Elementor Required. You need to install & activate Elementor to use Unlockafe "
+"Elementor Addons."
+msgstr ""
+
+#: unlock-addons-for-elementor.php:150
+msgid "Install Elementor Now"
+msgstr ""
+
+#: includes/API/Widgets_API.php:116
+msgid "Total Elements"
+msgstr ""
+
+#: includes/API/Widgets_API.php:120
+msgid "Active Elements"
+msgstr ""
+
+#: includes/API/Widgets_API.php:124
+msgid "Inactive Elements"
+msgstr ""
+
+#: includes/Admin/Admin.php:45 includes/Admin/Admin.php:46
+#: includes/Classes/Unlockafe_addons.php:161
+msgid "Unlockafe Addons"
+msgstr ""
+
+#: includes/Admin/Admin.php:57 includes/Admin/Admin.php:58
+msgid "Elements"
+msgstr ""
+
+#: includes/Admin/Admin.php:67 includes/Admin/Admin.php:68
+msgid "Integrations"
+msgstr ""
+
+#: includes/Admin/Admin.php:77 includes/Admin/Admin.php:78
+msgid "Support"
+msgstr ""
+
+#: includes/Admin/Admin.php:87 includes/Admin/Admin.php:88
+msgid "Go premium"
+msgstr ""
+
+#: includes/Admin/Admin.php:106 includes/Widgets/Blog_Grid.php:126
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Admin.php:107
+msgid "Get Premium"
+msgstr ""
+
+#: includes/Admin/views/main.dashboard.php:9
+msgid ""
+"To manage <strong><em>Unlockafe Addon</em></strong> Dashboard properly you "
+"need to <strong>Enable JavaScript</strong> in your browser or make sure you "
+"have installed updated browser in your device."
+msgstr ""
+
+#: includes/Classes/Unlockafe_addons.php:168
+msgid "Unlockafe Addons Pro"
+msgstr ""
+
+#: includes/Classes/Unlockafe_addons.php:185
+msgid "Team Carousel"
+msgstr ""
+
+#: includes/Classes/Unlockafe_addons.php:191
+msgid "Blog Carousel"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:16
+msgid "Unlockafe Premium"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:25
+msgid "Unlockafe All widgets"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:39
+msgid "Upgrade"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:40
+msgid "Upgrade Pro"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:41
+msgid ""
+"Get the premium version of the widget and grow your website capabilities."
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:43
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:64
+msgid "Layout"
+msgstr ""
+
+#: includes/Traits/Widget_helper.php:71 includes/Widgets/Button.php:135
+#: includes/Widgets/Team_Grid.php:120
+msgid "Layout Style"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:45
+msgid "Blog Grid"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:112 includes/Widgets/Button.php:139
+#: includes/Widgets/Progress_bar.php:111 includes/Widgets/Team_Grid.php:124
+msgid "Style 1"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:113 includes/Widgets/Button.php:140
+#: includes/Widgets/Team_Grid.php:125
+msgid "Style 2"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:114 includes/Widgets/Button.php:141
+msgid "Style 3"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:115
+msgid "Style 4"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:151
+msgid "Post Per page"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:174
+msgid "Show Title"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:176 includes/Widgets/Blog_Grid.php:247
+#: includes/Widgets/Blog_Grid.php:299 includes/Widgets/Blog_Grid.php:315
+#: includes/Widgets/Blog_Grid.php:336 includes/Widgets/Blog_Grid.php:358
+msgid "Show"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:177 includes/Widgets/Blog_Grid.php:248
+#: includes/Widgets/Blog_Grid.php:300 includes/Widgets/Blog_Grid.php:316
+#: includes/Widgets/Blog_Grid.php:337 includes/Widgets/Blog_Grid.php:359
+msgid "Hide"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:187
+msgid "Title Length"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:201 includes/Widgets/Progress_bar.php:160
+#: includes/Widgets/Team_Grid.php:214
+msgid "Title Tag"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:204 includes/Widgets/Progress_bar.php:163
+#: includes/Widgets/Team_Grid.php:217
+msgid "You can change Heading Tags from here."
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:207 includes/Widgets/Progress_bar.php:166
+#: includes/Widgets/Team_Grid.php:220
+msgid "H1"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:211 includes/Widgets/Progress_bar.php:170
+#: includes/Widgets/Team_Grid.php:224
+msgid "H2"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:215 includes/Widgets/Progress_bar.php:174
+#: includes/Widgets/Team_Grid.php:228
+msgid "H3"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:219 includes/Widgets/Progress_bar.php:178
+#: includes/Widgets/Team_Grid.php:232
+msgid "H4"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:223 includes/Widgets/Progress_bar.php:182
+#: includes/Widgets/Team_Grid.php:236
+msgid "H5"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:227 includes/Widgets/Progress_bar.php:186
+#: includes/Widgets/Team_Grid.php:240
+msgid "H6"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:245
+msgid "Show excerpt"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:257
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:276
+msgid "Meta Data"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:281 includes/Widgets/Blog_Grid.php:391
+msgid "Date"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:282 includes/skins/blog/layout-2.php:48
+#: includes/skins/blog/layout-4.php:46
+msgid "Comment"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:283
+msgid "Author"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:284
+msgid "Category"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:297
+msgid "Show Author"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:313
+msgid "Show Date"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:334 includes/Widgets/Blog_Grid.php:348
+msgid "Read More"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:346
+msgid "Read More Text"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:349
+msgid "Type button name"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:356
+msgid "Open in new window"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:376
+msgid "Query"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:386
+msgid "Post Source"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:390 includes/Widgets/Progress_bar.php:147
+msgid "Title"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:392
+msgid "Modified"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:393
+msgid "Random"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:405
+msgid "Alert!"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:406
+msgid "Show by views will only work since plugin activated."
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:415
+msgid "Ordering"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:419
+msgid "ASC"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:420
+msgid "DESC"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:435
+msgid "Exclude / Include any post"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:448
+msgid "Include"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:455
+msgid "Include Post"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:460
+msgid "Select posts to include showing frontend"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:470
+msgid "Exclude"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:477
+msgid "Exclude Post"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:482
+msgid "Select posts to exclude showing frontend"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:500
+msgid "Relation"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:503
+msgid "AND"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:504
+msgid "OR"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:505
+msgid "NOT"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:507
+msgid "Select taxonomy Logical relation"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:515
+msgid "Post By Category"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:519
+msgid "Posts of selected categories will be displayed in the slider"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:527
+msgid "Post By Tag"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:531
+msgid "Posts of selected Tag will be displayed in the slider"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:539
+msgid "Post By Author"
+msgstr ""
+
+#: includes/Widgets/Blog_Grid.php:543
+msgid "Posts of selected Author will be displayed in the slider"
+msgstr ""
+
+#: includes/Widgets/Button.php:52 includes/Widgets/Button.php:128
+msgid "Button"
+msgstr ""
+
+#: includes/Widgets/Button.php:114 includes/Widgets/Button.php:152
+#: includes/Widgets/Button.php:153
+msgid "Click here"
+msgstr ""
+
+#: includes/Widgets/Button.php:115 includes/Widgets/Button.php:150
+msgid "Text"
+msgstr ""
+
+#: includes/Widgets/Button.php:163 includes/Widgets/Progress_bar.php:211
+#: includes/Widgets/Team_Grid.php:184
+msgid "Link"
+msgstr ""
+
+#: includes/Widgets/Button.php:178
+msgid "Icon"
+msgstr ""
+
+#: includes/Widgets/Button.php:189
+msgid "Alignment"
+msgstr ""
+
+#: includes/Widgets/Button.php:194
+msgid "Start"
+msgstr ""
+
+#: includes/Widgets/Button.php:198
+msgid "End"
+msgstr ""
+
+#: includes/Widgets/Button.php:216
+msgid "Button ID"
+msgstr ""
+
+#: includes/Widgets/Button.php:238
+msgid "Style"
+msgstr ""
+
+#: includes/Widgets/Button.php:246
+msgid "Position"
+msgstr ""
+
+#: includes/Widgets/Button.php:250
+msgid "Left"
+msgstr ""
+
+#: includes/Widgets/Button.php:254
+msgid "Center"
+msgstr ""
+
+#: includes/Widgets/Button.php:258
+msgid "Right"
+msgstr ""
+
+#: includes/Widgets/Button.php:293
+msgid "Normal"
+msgstr ""
+
+#: includes/Widgets/Button.php:301 includes/Widgets/Button.php:347
+msgid "Text Color"
+msgstr ""
+
+#: includes/Widgets/Button.php:339
+msgid "Hover"
+msgstr ""
+
+#: includes/Widgets/Button.php:377
+msgid "Border Color"
+msgstr ""
+
+#: includes/Widgets/Button.php:392
+msgid "Transition Duration"
+msgstr ""
+
+#: includes/Widgets/Button.php:407
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/Widgets/Button.php:430
+msgid "Border Radius"
+msgstr ""
+
+#: includes/Widgets/Button.php:452
+msgid "Padding"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:46
+msgid "Progress bar"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:121 includes/Widgets/Test_Widget.php:110
+msgid "Contents"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:134
+msgid "Progress"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:149
+msgid "Web Desgin"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:197
+msgid "Description"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:200
+msgid "Default description"
+msgstr ""
+
+#: includes/Widgets/Progress_bar.php:201
+msgid "Type your description here"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:45
+msgid "Team"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:113
+msgid "Team Member"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:139
+msgid "Choose Image"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:160
+msgid "Link name"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:162
+msgid "Yes"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:163
+msgid "No"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:173
+msgid "Name"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:175 includes/Widgets/Team_Grid.php:176
+msgid "Member name"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:203
+msgid "Designation"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:205 includes/Widgets/Team_Grid.php:206
+msgid "Member Designation"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:264
+msgid "Social"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:273
+msgid "Social Icon"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:284
+msgid "Social Link"
+msgstr ""
+
+#: includes/Widgets/Team_Grid.php:297
+msgid "Repeater List"
+msgstr ""
+
+#: includes/Widgets/Test_Widget.php:42
+msgid "Test Widget"
+msgstr ""
+
+#: includes/Widgets/Test_Widget.php:118
+msgid "text"
+msgstr ""
+
+#: includes/Widgets/Test_Widget.php:120
+msgid "Hello world"
+msgstr ""
+
+#: includes/skins/blog/layout-2.php:50 includes/skins/blog/layout-4.php:48
+msgid "Comments"
+msgstr ""

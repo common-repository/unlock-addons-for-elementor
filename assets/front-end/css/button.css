@@ -1,0 +1,156 @@
+@import url(../global-css/global.css);
+
+/* Button */
+/* Button Design 1 */
+.common-design-btn {
+   display: inline-block;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1;
+   padding: 12px 20px;
+   background-color: #335cd6;
+   border-radius: 10px;
+ }
+ 
+ .common-design-btn .btn-flip {
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+ }
+ 
+ .common-design-btn .btn-flip span {
+   white-space: nowrap;
+ }
+ 
+ .common-design-btn .btn-flip span::after, .common-design-btn .btn-flip span::before {
+   content: attr(data-text);
+   display: block;
+   position: absolute;
+   color: #fff;
+ }
+ 
+ .common-design-btn.only-border {
+   background-color: unset;
+   border: 1.5px solid #335cd6;
+   color: #335cd6;
+ }
+ 
+ .common-design-btn.only-border .btn-flip span::after, .common-design-btn.only-border .btn-flip span::before {
+   content: attr(data-text);
+   color: #335cd6;
+ }
+ 
+ .common-design-btn:hover .btn-flip span {
+   transform: translateY(-105%);
+ }
+ 
+ .common-design-btn:hover .btn-flip span::before {
+   transform: skewY(7deg);
+ }
+ 
+ .common-design-btn:hover .btn-flip span::after {
+   transform: skewY(0);
+ }
+ 
+ @media (min-width: 992px) {
+   .btn-flip span {
+     display: inline-block;
+     position: relative;
+     z-index: 1;
+     color: transparent;
+     transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+   }
+   .btn-flip span:before {
+     top: 0;
+     transform: skewY(0);
+     transform-origin: right bottom;
+     transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+   }
+   .btn-flip span:after {
+     top: 105%;
+     transform: skewY(7deg);
+     transform-origin: left top;
+     transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+   }
+ } /* End Button Design 1 */
+ /* End Button Design 2 */
+ .common-design-btn-two {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   white-space: nowrap;
+   line-height: 1;
+   font-weight: 500;
+   color: #fff;
+   border-radius: 22px;
+   background-color: #836fff;
+   padding: 6.5px 8px 6.5px 24px;
+   width: -moz-max-content;
+   width: max-content;
+   transition: all 0.4s linear;
+ }
+ 
+ .common-design-btn-two .button-icon-wrap {
+   width: 30px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   position: relative;
+ }
+ 
+ .common-design-btn-two .button-icon-wrap .button-icon {
+   position: absolute;
+   transition: all 0.5s linear;
+   color: #fff;
+ }
+ 
+ .common-design-btn-two .button-icon-wrap .button-icon.button-icon-one {
+   transform: translate3d(-180%, 180%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+   transform-style: preserve-3d;
+   opacity: 0;
+ }
+ 
+ .common-design-btn-two .button-icon-wrap .button-icon.button-icon-two {
+   transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+   transform-style: preserve-3d;
+   opacity: 1;
+ }
+ 
+ .common-design-btn-two:hover .button-icon-wrap .button-icon.button-icon-one {
+   transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+   transform-style: preserve-3d;
+   opacity: 1;
+ }
+ 
+ .common-design-btn-two:hover .button-icon-wrap .button-icon.button-icon-two {
+   transform: translate3d(180%, -180%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+   transform-style: preserve-3d;
+   opacity: 0;
+ }
+ 
+ .blog-btn {
+   display: flex;
+   align-items: center;
+   line-height: 1;
+   gap: 7px;
+   width: -moz-max-content;
+   width: max-content;
+   font-size: 17px;
+   font-weight: 500;
+   transition: all 0.4s;
+ }
+ 
+ .blog-btn svg {
+   height: 9px;
+ }
+ 
+ .blog-btn:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Button End */

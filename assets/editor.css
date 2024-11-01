@@ -1,0 +1,8 @@
+#elementor-panel-category-unlockafe-addons
+  .elementor-element-wrapper
+  [class^="eicon-"]:after {
+  content: url(../assets/images/unlockafe-editor.svg);
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
